@@ -52,7 +52,11 @@ body, p, h1, h2, ul, ol, figure, li {
 .md-header.template7 .header-container .head-account > .menu-item.item-login, .md-header.template7 .header-container .head-account > .menu-item.item-regist { 
     align-self: center; cursor: pointer; padding: 0px; border-style: solid; border-width: 0; text-transform: uppercase; min-width: 74px; text-align: center; padding: 5px 10px; border: solid 1px;  
 } 
-.site-logo {height: 3em;  margin-bottom: 5px;}
+.site-logo {
+    height: 3em;  
+    margin-bottom: 5px;
+    float:right;
+}
 .md-footer.fashion .bottom-content .bot-left-content .share-item .iconfont {font-size: 20px; color: #E4E4E4;}
 .share-links {float: right; padding-right: 25px;}
 .company-name {font-size: 14px !important; font-weight: bold;}
